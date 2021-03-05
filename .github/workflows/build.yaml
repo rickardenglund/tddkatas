@@ -14,8 +14,8 @@
                 go-version: '1.16'
             - name: Vet & lint
               run: |
-                go vet .
-                golint .
+                go vet ./...
+                golint ./...
             - name: test
               run: |
                 go test -v ./...

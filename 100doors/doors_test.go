@@ -48,6 +48,5 @@ func TestRun(t *testing.T) {
 			require.Equal(t, tc.expected, ds.String()[0:len(tc.expected)])
 		})
 	}
-
 }
 
